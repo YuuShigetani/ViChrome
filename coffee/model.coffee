@@ -265,7 +265,7 @@ g.model =
             return
 
         if g.util.isEmbededFlash target
-            @enterEmergencyMode()
+            # @enterEmergencyMode()
         else if g.util.isEditable target
             @enterInsertMode()
         else
